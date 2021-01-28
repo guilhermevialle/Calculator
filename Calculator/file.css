@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url(https://allfont.net/allfont.css?fonts=digital-7);
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.interface {
+  width: 400px;
+  height: 70vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+          box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  opacity: 0;
+  -webkit-transform: translateY(-700px);
+          transform: translateY(-700px);
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.display {
+  width: 100%;
+  height: 20%;
+  border: none;
+  border-left: 3px solid darkorange;
+  border-right: 3px solid darkorange;
+  border-top: 3px solid darkorange;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #333;
+  font-size: 1.2rem;
+}
+
+.botoes {
+  width: 100%;
+  height: 80%;
+  border: 1px solid darkorange;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.numeros {
+  width: 70%;
+  height: 100%;
+  border: 2px solid darkorange;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.numeros button {
+  width: 70px;
+  height: 55px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  background-color: #fffbf6;
+  margin: 5px 5px;
+  cursor: pointer;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+          box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  color: darkorange;
+}
+
+.numeros button:hover {
+  -webkit-box-shadow: rgba(255, 157, 0, 0.4) 0px 0px 0px 2px, rgba(190, 113, 11, 0.65) 0px 4px 6px -1px, rgba(161, 94, 5, 0.08) 0px 1px 0px inset;
+          box-shadow: rgba(255, 157, 0, 0.4) 0px 0px 0px 2px, rgba(190, 113, 11, 0.65) 0px 4px 6px -1px, rgba(161, 94, 5, 0.08) 0px 1px 0px inset;
+}
+
+.operadores {
+  padding: 2px;
+  width: 30%;
+  height: 100%;
+  border: 2px solid darkorange;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.operadores button {
+  width: 50%;
+  outline: none;
+  background-color: darkorange;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  color: white;
+}
+
+.operadores button:hover {
+  background-color: #e48006;
+}
+
+#result {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  width: 100%;
+}
+
+#apagar {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  width: 100%;
+}
+
+#raiz {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  width: 100%;
+}
+/*# sourceMappingURL=file.css.map */
