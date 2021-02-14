@@ -1,6 +1,8 @@
 # Calculator
 Calculator with JavaScript, CSS and HTML.
 
+> #### by guilhermevialle
+
 - ### Screenshot
 
 
