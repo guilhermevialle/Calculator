@@ -8,9 +8,8 @@ Calculator with JavaScript, CSS and HTML.
 
 ------------
 
-#### Media Social
+#### Social Media
 
 - https://twitter.com/guivialle
 - https://www.instagram.com/guilherme.vialle/?hl=pt-br
-
 
