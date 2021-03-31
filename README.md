@@ -3,10 +3,10 @@ Calculator with JavaScript, CSS and HTML.
 
 > #### by guilhermevialle
 
-- ### Screenshot
+- ### Preview
 
 
-![](https://github.com/guilhermevialle/Calculator/blob/main/Calculator/Screenshots/capture.PNG)
+![](./Calculator/Screenshots/capture.png)
 
 ------------
 
