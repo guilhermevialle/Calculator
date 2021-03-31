@@ -6,7 +6,7 @@ Calculator with JavaScript, CSS and HTML.
 - ### Preview
 
 
-![](Calculator/tree/main/Calculator/Screenshots/capture.png)
+![Interface](https://github.com/guilhermevialle/Calculator/blob/main/Calculator/Screenshots/capture.PNG)
 
 ------------
 
